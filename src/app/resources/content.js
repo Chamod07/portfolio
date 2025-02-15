@@ -54,7 +54,7 @@ const home = {
   headline: <>Engineer by day, innovator by night.</>,
   subline: (
     <>
-      I’m <InlineCode>Chamod</InlineCode>, a software engineer crafting digital solutions so intuitive they practically debug themselves.
+      I’m Chamod, a <InlineCode>software engineer</InlineCode> crafting digital solutions so intuitive they practically debug themselves.
       After hours, I dream up big ideas—and sometimes wonder why my code works when it shouldn’t.
     </>
   ),
