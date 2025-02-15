@@ -1,6 +1,7 @@
 import "@/once-ui/styles/index.scss";
 import "@/once-ui/tokens/index.scss";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import classNames from "classnames";
 
@@ -142,6 +143,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
           />
           <Flex fillWidth minHeight="16"></Flex>
           <Analytics/>
+          <SpeedInsights/>
           <Header />
           <Flex
             position="relative"
