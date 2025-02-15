@@ -81,14 +81,14 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        I am a Colombo-based design engineer with a passion for transforming complex challenges
+        I am a Colombo-based software engineer with a passion for transforming complex challenges
         into simple, elegant design solutions. My work spans digital interfaces, interactive
         experiences, and the convergence of design and technology.
       </>
     ),
   },
   work: {
-    display: false, // set to false to hide this section
+    display: true, // set to false to hide this section
     title: "Work Experience",
     experiences: [
       {
