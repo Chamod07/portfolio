@@ -339,6 +339,12 @@ export default function About() {
               </Column>
             </>
           )}
+          <Flex fillWidth horizontal="center" marginTop="40">
+            <Button
+              href="https://flowcv.com/resume/an1usee8nn"
+              label="View Resume"
+            />
+          </Flex>
         </Column>
       </Flex>
     </Column>
