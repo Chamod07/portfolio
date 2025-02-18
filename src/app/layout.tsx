@@ -1,5 +1,6 @@
 import "@/once-ui/styles/index.scss";
 import "@/once-ui/tokens/index.scss";
+import { Montserrat } from 'next/font/google';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
@@ -41,10 +42,10 @@ export async function generateMetadata() {
   };
 }
 
-const primary = Inter({
-  variable: "--font-primary",
-  subsets: ["latin"],
-  display: "swap",
+const primary = Montserrat({
+  variable: '--font-primary',
+  subsets: ['latin'],
+  display: 'swap'
 });
 
 type FontConfig = {

@@ -14,7 +14,7 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to my Newsletter</>,
+  title: <>Subscribe to the Newsletter</>,
   description: (
     <>
       A blend of product updates and personal insights.
@@ -55,7 +55,6 @@ const home = {
   subline: (
     <>
       I’m Chamod, a <InlineCode>software engineer</InlineCode> crafting digital solutions so intuitive they practically debug themselves.
-      After hours, I dream up big ideas—and sometimes wonder why my code works when it shouldn’t.
     </>
   ),
 };
@@ -87,16 +86,16 @@ const about = {
     ),
   },
   work: {
-    display: true,
+    display: false,
     title: "Work Experience",
     experiences: [
       {
-        company: "Mathru",
+        company: "",
         timeframe: "2024 - 2024",
         role: "Intern Software Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the Mathru platform, resulting in a 30% increase in user
+            Redesigned the UI/UX for the platform, resulting in a 30% increase in user
             engagement.
           </>,
           <>
@@ -123,24 +122,17 @@ const about = {
       {
         name: "University of Westminster",
         description: <>BSc (Honours) in Computer Science.</>,
-      },
-      {
-        name: "Cambridge Assessment International Education",
-        description: <>G.C.E. Advanced Levels in Maths</>
-      },
-      {
-        name: "Dharmaraja College Kandy",
-        description: <>Attended High school.</>,
-      },
+      }
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
+    display: true,
+    title: "Projects",
     skills: [
       {
-        title: "Figma",
+        title: "Presently",
         description: <>Able to prototype in Figma with unnatural speed.</>,
+        timeframe: "2024 - 2024",
         // optional: leave the array empty if you don't want to display images
         images: [
           // {

@@ -62,15 +62,15 @@ export default function Home() {
           }),
         }}
       />
-      <Column fillWidth paddingY="l" gap="m">
+      <Column fillWidth paddingY="l" gap="l">
         <Column maxWidth="s">
           <RevealFx translateY="4" fillWidth horizontal="start" paddingBottom="m">
-            <Heading wrap="balance" variant="display-strong-l">
+            <Heading wrap="balance" variant="display-strong-l" style={{ wordSpacing: "1rem" }}>
               {home.headline}
             </Heading>
           </RevealFx>
           <RevealFx translateY="8" delay={0.2} fillWidth horizontal="start" paddingBottom="m">
-            <Text wrap="balance" onBackground="neutral-weak" variant="heading-default-xl">
+            <Text wrap="balance" onBackground="neutral-weak" variant="heading-default-xl" style={{ wordSpacing: "1rem" }}>
               {home.subline}
             </Text>
           </RevealFx>
@@ -112,7 +112,7 @@ export default function Home() {
           </Flex>
         </Flex>
       )}
-      <Projects range={[2]} />
+      {/*<Projects range={[2]} />*/}
       {newsletter.display && <Mailchimp newsletter={newsletter} />}
     </Column>
   );
